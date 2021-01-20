@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment_03</title>
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <style>
+
+        body>section{
+            position: relative;
+            height: 100vh;
+            width: 100vw;
+
+        }
+        body>section>div:nth-child(1){
+            position: sticky;
+            height: 40px;
+            width: 100vw;
+            top: 0;
+            z-index: 10;
+        }
+
+        body>section:nth-child(1)>div:nth-child(1){
+            background: coral;
+
+        }
+        body>section:nth-child(2)>div:nth-child(1){
+            background: #0635a1;
+
+        }
+        body>section:nth-child(2){
+            background: cornflowerblue;
+        }
+
+        body>section:nth-child(3)>div:nth-child(1){
+            background: #088923;
+
+        }
+        body>section:nth-child(3){
+            background: darkseagreen;
+        }
+        body>section:nth-child(4)>div:nth-child(1){
+            background: #b40303;
+
+        }
+        body>section:nth-child(4){
+            background: palevioletred;
+        }
+        section>h1:nth-child(2){
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;
+            font-size: 80px;
+
+        }
+        body>section>div:nth-child(1)>p:nth-child(1){
+            font-size: 20px;
+            font-weight: bold;
+            left: 5px;
+            top: 50%;
+            width: max-content;
+            height: 40px;
+            margin: 0;
+            text-align: center;
+            transform: translate(0%, 15%);
+
+
+        }
+    </style>
+
+</head>
+<body>
+<section>
+    <div>
+        <p>color 1</p>
+    </div>
+    <h1>Hellow</h1>
+</section>
+<section>
+    <div>
+        <p>color 2</p>
+    </div>
+    <h1>How</h1>
+</section>
+<section>
+    <div>
+        <p>color 3</p>
+    </div>
+    <h1>Are</h1>
+</section>
+<section>
+    <div>
+        <p>color 4</p>
+    </div>
+    <h1>You?</h1>
+</section>
+
+</body>
+</html>
